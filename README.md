@@ -1,61 +1,49 @@
-# Advanced-Techniques-in-Regression-and-Unsupervised-Learning-for-Hepatitis-Mortality-Analysis
+# Hepatitis Mortality Analysis  
+**Advanced Techniques in Regression and Unsupervised Learning**
 
-This project explores statistical and machine learning approaches to predict mortality in hepatitis patients. It combines regression and unsupervised learning methods to identify the most relevant clinical and biochemical factors influencing survival outcomes.
+This project applies advanced statistical and machine learning techniques to predict mortality in hepatitis patients. It combines regression and unsupervised learning methods to identify the most relevant clinical and biochemical factors associated with patient survival.
 
-🎯 Objectives
+---
 
-Predict mortality risk based on patient clinical data.
+## Objectives
+- Predict mortality risk using patient clinical and biochemical data.  
+- Identify the most influential medical features related to liver dysfunction.  
+- Group patients with similar clinical profiles through clustering techniques.  
 
-Identify the most relevant medical features associated with liver dysfunction.
+---
 
-Group patients with similar clinical profiles using clustering techniques.
+## Methods
+**Supervised Learning:**  
+- Logistic Regression  
+- LASSO and Adaptive LASSO for feature selection and regularization  
+- Bayesian Model Averaging for model inference and uncertainty  
 
-⚙️ Methods
+**Unsupervised Learning:**  
+- Principal Component Analysis for dimensionality reduction  
+- K-Means and Hierarchical Clustering for patient grouping  
 
-Supervised Learning:
+---
 
-Logistic Regression
+## Repository Structure
+| File | Description |
+|------|--------------|
+| `Data.csv` | Hepatitis dataset used for analysis |
+| `Regression_Techniques.R` | Implementation of regression models and model selection |
+| `Unsupervised_Learning.R` | PCA and clustering analysis |
+| `Report.pdf` | Full report with methodology, results, and interpretation |
+| `README.md` | Project documentation |
 
-LASSO and Adaptive LASSO for feature selection and regularization
+---
 
-Bayesian Model Averaging (BMA) for model inference and uncertainty
+## Tools
+- **Language:** R  
+- **Packages:** `glmnet`, `mice`, `BAS`, `mombf`, `ggplot2`, `psych`, `pROC`  
 
-Unsupervised Learning:
+---
 
-Principal Component Analysis (PCA) for dimensionality reduction
+## How to Run
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/inigo-exp/hepatitis-analysis.git
+   cd hepatitis-analysis
 
-K-Means and Hierarchical Clustering for patient grouping
-
-📁 Repository Structure
-File	Description
-Data.csv	Hepatitis dataset used for analysis
-Regression_Techniques.R	Regression models and model selection procedures
-Unsupervised_Learning.R	PCA and clustering implementation
-Report.pdf	Full report with methodology, results, and interpretation
-README.md	Project documentation
-🧰 Tools
-
-Language: R
-
-Packages: glmnet, mice, BAS, mombf, ggplot2, psych, pROC
-
-🚀 How to Run
-
-Clone the repository
-
-git clone https://github.com/inigo-exp/hepatitis-analysis.git
-cd hepatitis-analysis
-
-
-Open R or RStudio
-
-Run the scripts in order:
-
-Regression_Techniques.R → regression models and variable selection
-
-Unsupervised_Learning.R → PCA and clustering
-
-👥 Authors
-
-Iñigo Expósito & Oriol Gelabert
-📅 December 2024
